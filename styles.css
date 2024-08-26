@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #beb8b8;
+}
+.timer-container {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.message {
+    color: red;
+    font-size: 24px;
+    display: none;
+}
+.controls button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.start-stop {
+    background-color: #28a745;
+    color: white;
+}
+.reset {
+    background-color: #dc3545;
+    color: white;
+}
